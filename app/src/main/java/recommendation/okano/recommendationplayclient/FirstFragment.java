@@ -38,7 +38,7 @@ public class FirstFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_fragment0, container, false);
-        TextView tvLabel = (TextView) view.findViewById(R.id.test);
+        TextView tvLabel = (TextView) view.findViewById(R.id.play_name);
         tvLabel.setText(page + " -- " + title);
         return view;
     }
